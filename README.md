@@ -1,7 +1,10 @@
- The chatbot is designed to engage in conversational interactions with users, providing responses based on its understanding of the input.
+ # Intelligent Document Processing RAG System 🔎📚
+
+This document processing system is designed to efficiently analyze user documents and provide accurate responses to user queries related to the content. Powered by advanced algorithms, it offers a seamless experience for users seeking insights or information within their documents. Whether you're searching for specific details, or extracting key information, this system is equipped to handle diverse document processing tasks with precision and speed.
+
 
 ## Installation:
-
+Prerequisites: Java 17 or higher, Maven should be set up in the system for the backend to work.
 1. Clone the repository: `git clone https://github.com/iamsarthak14/Sunbase-RAG-Assignment.git`
 2. Navigate to the project directory: `cd backend/Sunbase-RAG-Assignment`
 3. Build the project: `mvn clean install`
@@ -28,3 +31,7 @@ View Results: The chatbot will process your query and display the result in the 
 1. Support for multiple file formats.
 2. Add a buffer loader in the frontend, signifying when the user request is being processed.
 3. Better prompt engineering to make query answers accurate and more aligned with the input data.
+ 
+ 
+ ## References:
+For glove embeddings usage, I took some reference from this amazing project's code: https://github.com/chen0040/java-text-embedding/tree/master
